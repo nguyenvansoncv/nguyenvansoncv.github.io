@@ -162,7 +162,7 @@ a:focus {
   transition: all 0.3s ease-in-out;
 }
 .btn-default2 {
-  font-size: 9px;
+  font-size: 10px;
   background: #021533;
   font-weight: lighter;
 }
@@ -706,7 +706,7 @@ iframe {
   margin-bottom: 5px;
 }
 .vcard-profile-description-text p {
-  font-size: 13px;
+  font-size: 16px;
 }
 .hr1 {
   border: none;
@@ -727,7 +727,7 @@ iframe {
 .vcard-profile-description-ft-item p {
   margin-bottom: 0;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 13px;
 }
 /* ==========================================================
 ! 09. Content
@@ -792,13 +792,13 @@ iframe {
   line-height: 15px;
   font-style: italic;
   color: #555;
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 5px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
 .graduation-description p {
-  font-size: 12px;
+  font-size: 13px;
 }
 /*============================================================================
   >>  10. SECTION: Resume
@@ -819,7 +819,7 @@ iframe {
 }
 .footer-quote {
   color: #444;
-  font-size: 11px;
+  font-size: 12px;
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
@@ -1066,6 +1066,9 @@ iframe {
 }
 .progress-bar-3 {
   background: #d9212a;
+}
+.progress-bar-4 {
+  background: #be19c4;
 }
 /* ==========================================================
 ! 13. SECTION: Portfolio
