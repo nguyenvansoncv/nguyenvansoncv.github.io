@@ -652,33 +652,30 @@ logged_out_greeting="Xin chào anh, chị. Anh, chị có thể liên hệ với
 
 	            <!-- Contact form -->
 	            <h4 class="contact-subtitle-1"><i class="fa fa-paper-plane-o"></i>&nbsp; Gửi email đến Sơn</h4>
-		        <form action="main.php" id="contactForm" method="post" class="form">
-		            <!-- Form Field -->
-		            <div class="form-group">
-		            	<input class="form-control required" id="name" name="name" placeholder="Tên bạn" type="text" required />
-		            </div>
-		            <!-- /Form Field -->
-		            <!-- Form Field -->
-		            <div class="form-group">
-		            	<input class="form-control required" id="email" name="email" placeholder="Email của bạn" type="email" required />
-		            </div>
-		            <!-- /Form Field -->
-		            <!-- Form Field -->
-		            <div class="form-group">
-		            	<input class="form-control required" id="subject" type="text" name="subject" placeholder="Tiêu đề" required>
-		            </div>
-		            <!-- /Form Field -->
-		            <!-- Form Field -->
-		            <div class="form-group">
-		            	<textarea class="form-control required" id="message" name="message" placeholder="Tin nhắn của bạn" rows="5" required></textarea>
-		            </div>
-		            <!-- /Form Field -->
-		            <!-- Form Field -->
-		            <div class="form-group">
-		            	<input type="submit" class="btn btn-default form-send" value="Send!">
-		            </div>  
-		            <!-- /Form Field -->
-		        </form>
+				<form action="https://formspree.io/f/xwkwgqkv" method="POST" id="my-form">
+  
+					<div class="form-group">
+					  <label for="firstName"> Tên người gửi</label>
+					  <input class="form-control required" type="text" id="name" name="name" placeholder="Tên bạn">
+					</div>
+			  
+					<div class="form-group">
+					  <label for="latsName">Tiêu đề gửi</label>
+					  <input class="form-control required" type="text" id="lastName" name="lastName" placeholder="Tiêu đề gửi">
+					</div>
+			  
+					<div class="form-group">
+					  <label for="email">Email</label>
+					  <input class="form-control required" type="text" type="email" id="email" name="email" placeholder="Email">
+					</div>
+			  
+					<div class="form-group">
+					  <label for="massage">Tin gửi</label>
+					  <textarea class="form-control required" name="massage" id="massage" cols="30" rows="10" placeholder="Tin nhắn của bạn"></textarea>
+					</div>
+			  
+					<button class="btn btn-default form-send" type="submit">Gửi</button>
+				  </form>	
 		        <!-- /Contact Form -->
 
 			</div>			
@@ -692,24 +689,7 @@ logged_out_greeting="Xin chào anh, chị. Anh, chị có thể liên hệ với
 
 <!-- Contact Form - Ajax Messages
 ========================================================= -->
-<!-- Form Sucess -->
-<div class="form-result modal-wrap" id="contactSuccess">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-check-circle"></i> Thành công</h4>
-    <p>Bạn đã gửi email đến Sơn.</p>
-  </div>
-</div>
-<!-- /Form Sucess -->
-<!-- form-error -->
-<div class="form-result modal-wrap" id="contactError">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-times"></i> Lỗi</h4>
-    <p>Đã có lỗi trong việc gửi tin nhắn của bạn.</p>
-  </div>
-</div>
-<!-- /form-error -->
+
 
 <!-- Contact Form - Ajax Messages
 ========================================================= -->
