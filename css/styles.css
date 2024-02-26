@@ -1115,6 +1115,11 @@ iframe {
   -moz-transform: translateY(0px);
 }
 .project-thumbnail:hover .project-title,
+.project-thumbnail:hover span.click {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+},
 .project-thumbnail:hover span.see-more {
   transform: translateY(0px);
   -webkit-transform: translateY(0px);
@@ -1169,6 +1174,19 @@ span.see-more {
   text-transform: lowercase;
   letter-spacing: 3px;
   font-size: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+}
+span.click {
+  color: #fc1817;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-size: 15px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -1478,19 +1496,6 @@ span.see-more {
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
   font-weight: bold;
-}
-.click {
-  color: #fc1817;
-  font-style: italic;
-  text-transform: lowercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  transform: translateY(10px);
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
 }
 .modal-content p {
   font-size: 14px;
