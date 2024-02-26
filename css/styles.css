@@ -1479,8 +1479,8 @@ span.see-more {
   margin-bottom: 5px;
   font-weight: bold;
 }
-span.clcik {
-  color: #FC1817;
+.click {
+  color: #fc1817;
   font-style: italic;
   text-transform: lowercase;
   letter-spacing: 3px;
