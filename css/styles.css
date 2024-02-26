@@ -1479,6 +1479,19 @@ span.see-more {
   margin-bottom: 5px;
   font-weight: bold;
 }
+span.clcik {
+  color: #FC1817;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+}
 .modal-content p {
   font-size: 14px;
   margin-bottom: 0;
